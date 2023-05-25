@@ -1,0 +1,53 @@
+.activity__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#2cacd3, #ba57ba 48%, #4d8ec4);
+}
+
+.activity__container > h2 {
+  font-size: 34px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 70%;
+}
+.form__container,
+select {
+  min-width: 500px;
+  padding: 25px 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.form__container > textarea {
+  max-width: 530px;
+  padding: 30px 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form__container input {
+  max-width: 530px;
+  padding: 25px 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form__button > button{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  padding: 20px;
+  min-width: 550px;
+  cursor: pointer;
+}
+.form__button > button:hover{
+  background-color: #45a049;
+}

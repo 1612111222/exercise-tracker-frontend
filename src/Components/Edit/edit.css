@@ -1,0 +1,129 @@
+/* .edit__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#2cacd3, #ba57ba 48%, #4d8ec4);
+  }
+  
+  .edit__container > h2 {
+    font-size: 34px;
+  }
+  .edit__container,form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .editForm__container,
+  select {
+    max-width: 300px;
+    padding: 25px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .editForm__container , textarea {
+    max-width: 455px;
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .editForm__container, input {
+    max-width: 455px;
+    padding: 25px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .editForm__container > button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    padding: 20px;
+    min-width: 500px;
+    cursor: pointer;
+  }
+  .editForm__container > button:hover{
+    background-color: #45a049;
+  } */
+
+
+  .edit__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#2cacd3, #ba57ba 48%, #4d8ec4);
+  }
+  
+  .edit__container > h2 {
+    font-size: 34px;
+  }
+  
+  .edit__container,
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .editForm__container,
+  select {
+    max-width: 300px;
+    padding: 25px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .editForm__container,
+  textarea {
+    max-width: 455px;
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .editForm__container,
+  input {
+    max-width: 455px;
+    padding: 25px 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .editForm__container > button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    padding: 20px;
+    min-width: 500px;
+    cursor: pointer;
+  }
+  
+  .editForm__container > button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .editForm__container,
+    select,
+    textarea,
+    input {
+      max-width: 100%;
+    }
+  
+    .editForm__container > button {
+      min-width: 100%;
+    }
+  }
+  
