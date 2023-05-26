@@ -11,7 +11,6 @@ const Navbar = () => {
       <div className="navbar__right">
         <Link to="/login" className="navbar__button">Login</Link>
         <Link to="/register" className="navbar__button">Register</Link>
-        <Link to="/logout" className="navbar__button">Logout</Link>
       </div>
     </nav>
   );

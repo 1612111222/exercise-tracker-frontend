@@ -55,14 +55,16 @@ export const Login = () => {
               className="input"
             />
             {error && <div className="error_msg">{error}</div>}
-            <button type="submit" className="green_btn">
-              Sign In
-            </button>
+            <div className="sign__inBtn">
+              <button type="submit" className="green_btn">
+                Sign In
+              </button>
+            </div>
           </form>
         </div>
         <div className="right">
           <h1>New Here?</h1>
-          <Link to="/register">
+          <Link to="/register" className="sign__upBtn">
             <button type="button" className="white_btn">
               Sign Up
             </button>

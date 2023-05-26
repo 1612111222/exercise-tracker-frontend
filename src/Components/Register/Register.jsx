@@ -38,7 +38,7 @@ export const Register = () => {
   return (
     <div className="signup_container">
       <div className="signup_form_container">
-        <div className="styles.left">
+        <div className="left">
           <h1>Welcome Back</h1>
           <Link to="/login">
             <button type="button" className="white_btn">
