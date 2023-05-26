@@ -14,39 +14,46 @@
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 60%;
   height: 70%;
 }
-.form__container,
+.form__container>
 select {
   min-width: 500px;
   padding: 25px 20px;
   width: 100%;
   border-radius: 10px;
 }
-.form__container > textarea {
+.form__container ,
+ textarea {
   max-width: 530px;
   padding: 30px 20px;
   width: 100%;
   border-radius: 10px;
 }
 
-.form__container input {
+.form__container,
+ input {
   max-width: 530px;
   padding: 25px 20px;
   width: 100%;
   border-radius: 10px;
 }
 
-.form__button > button{
+.form__button >
+ button{
   text-align: center;
   align-items: center;
   justify-content: center;
   background: white;
   width: 100%;
   padding: 20px;
-  min-width: 550px;
+  min-width: 500px;
   cursor: pointer;
+  border-radius: 10px;
+  margin-right: 0px;
 }
 .form__button > button:hover{
   background-color: #45a049;

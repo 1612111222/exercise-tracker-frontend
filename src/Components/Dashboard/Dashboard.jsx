@@ -42,6 +42,15 @@ export const Dashboard = () => {
 
   return (
     <div className="dashboard">
+        <nav className="navbar">
+      <div className="navbar__left">
+        <Link to="/" className="navbar__logo">Fitness</Link>
+      </div>
+      <div className="navbar__right">
+        <Link to="/activity" className="navbar__button">Activity</Link>
+        <Link to="/logout" className="navbar__button">Logout</Link>
+      </div>
+    </nav>
       <h1>Exercise Tracker Dashboard</h1>
       <div className="exercise-grid">
         {exerciseData.map((exercise) => (

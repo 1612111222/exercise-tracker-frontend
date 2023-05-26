@@ -57,7 +57,9 @@ const Details = () => {
               <EditIcon />
             </Link>
             <button onClick={handleDelete} className="delete-icon">
+              <Link>
               <DeleteIcon />
+              </Link>
             </button>
           </div>
         </div>

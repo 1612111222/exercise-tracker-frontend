@@ -1,6 +1,4 @@
 import React from "react";
-import { Register } from "../Register/Register";
-import { Login } from "../Login/Login";
 import exerciseImage from "../../images/Exercise-image.jpg";
 import Navbar from "../Navbar/Navbar";
 import "./Landing.css";

@@ -2,7 +2,14 @@
     text-align: center;
     padding: 20px;
   }
-  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar__left{
+    align-items: flex-start;
+    margin-right: 100rem;
+  }
   h1 {
     margin-bottom: 20px;
   }
