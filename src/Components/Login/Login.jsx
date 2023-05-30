@@ -15,7 +15,7 @@ export const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8080/api/auth";
+      const url = "/login";
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("token", res.data);
       navigate("/dashboard"); // Navigate to the dashboard page
@@ -26,6 +26,10 @@ export const Login = () => {
         error.response.status <= 500
       ) {
         setError(error.response.data.message);
+      }
+            if (error.response.status === 201) {
+        alert("User login done");
+        setData({ ...data, email: "", password: "" });
       }
     }
   };
